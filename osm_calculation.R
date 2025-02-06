@@ -18,7 +18,7 @@ library(tmap)         # Static and interactive mapping with ggplot-like syntax
 
 ## Obtain Polygon and Bounding Box for Ho Chi Minh City (HCMC)
 # Retrieve the polygon boundary for the HCMC 
-city_polygon <- getbb("HCMC Vietnam", featuretype = "settlement", format_out = "polygon")
+city_polygon <- getbb("HCMC Vietnam", featuretype = "settlement", format_out = "polygon") 
 
 # Get the rectangular bounding box for Edinburgh
 city_rect <- getbb("HCMC Vietnam", featuretype = "settlement")
